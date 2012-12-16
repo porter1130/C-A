@@ -1,0 +1,5 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.Web\bin\Release\CA.Web.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.Web\bin\Release\CA.Web.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.Web\obj\Release\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.Web\obj\Release\CA.Web.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.Web\obj\Release\CA.Web.pdb

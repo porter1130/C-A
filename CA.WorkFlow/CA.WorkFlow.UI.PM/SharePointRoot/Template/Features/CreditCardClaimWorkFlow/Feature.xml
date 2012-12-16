@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+          Title="Credit Card Claim Workflow"
+		      Description="Create list template for Credit Card Claim Workflow"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

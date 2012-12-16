@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{27C5350E-A008-49C5-9C16-F1F2458488E0}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="PaymentRequestSAPWorkFlow"
+      DisplayName="Payment Request SAP WorkFlow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9068"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{27C5350E-A008-49C5-9C16-F1F2458488E0}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="PaymentRequestSAPItemsWorkFlow"
+      DisplayName="Payment Request SAP Items WorkFlow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9069"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

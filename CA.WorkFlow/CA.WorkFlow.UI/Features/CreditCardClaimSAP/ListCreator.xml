@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="Credit Card Claim SAP Workflow"
+    Title="Credit Card Claim SAP Workflow"
+    FeatureId="{A7989BAA-7898-4C0E-BEEC-764CBAC22292}"
+    Description="For Credit Card Claim SAP Workflow(main table)"
+    TemplateType="9066"
+    Url="Lists/CreditCardClaimSAPWorkflow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="Credit Card Claim SAP Detail"
+    Title="Credit Card Claim SAP Detail"
+    FeatureId="{A7989BAA-7898-4C0E-BEEC-764CBAC22292}"
+    Description="For Credit Card Claim SAP Detail details"
+    TemplateType="9067"
+    Url="Lists/CreditCardClaimSAPDetail"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+</Elements>

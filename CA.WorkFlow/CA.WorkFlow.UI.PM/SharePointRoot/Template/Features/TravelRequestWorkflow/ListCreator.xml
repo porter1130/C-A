@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="TravelRequestWorkflow2"
+    Title="Travel Request Workflow2"
+    FeatureId="{4bf06d7e-1c9a-4e7b-ac72-22916d52e1dc}"
+    Description=""
+    TemplateType="9010"
+    Url="Lists/TravelRequestWorkflow2"
+    OnQuickLaunch="TRUE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="TravelDetails2"
+    Title="Travel Details2"
+    FeatureId="{4bf06d7e-1c9a-4e7b-ac72-22916d52e1dc}"
+    Description=""
+    TemplateType="9011"
+    Url="Lists/TravelDetails2"
+    OnQuickLaunch="TRUE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="TravelHotelInfo2"
+    Title="Travel Hotel Info2"
+    FeatureId="{4bf06d7e-1c9a-4e7b-ac72-22916d52e1dc}"
+    Description=""
+    TemplateType="9012"
+    Url="Lists/TravelHotelInfo2"
+    OnQuickLaunch="TRUE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="TravelVehicleInfo2"
+    Title="Travel Vehicle Info2"
+    FeatureId="{4bf06d7e-1c9a-4e7b-ac72-22916d52e1dc}"
+    Description=""
+    TemplateType="9013"
+    Url="Lists/TravelVehicleInfo2"
+    OnQuickLaunch="TRUE"
+    >
+  </ListInstance>
+</Elements>

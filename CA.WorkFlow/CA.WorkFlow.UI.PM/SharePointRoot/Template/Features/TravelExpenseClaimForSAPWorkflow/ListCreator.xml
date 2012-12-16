@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="TravelExpenseClaimForSAP"
+    Title="Travel Expense Claim For SAP"
+    FeatureId="{547F5253-FDC6-4280-BCB1-DBE6270DAB2B}"
+    Description="For Travel Expense Claim for SAP workflow(main table)"
+    TemplateType="9090"
+    Url="Lists/TravelExpenseClaimForSAP"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="TravelExpenseClaimDetailsForSAP"
+    Title="Travel Expense Claim Details For SAP"
+    FeatureId="{547F5253-FDC6-4280-BCB1-DBE6270DAB2B}"
+    Description="For Travel Expense Claim For SAP details"
+    TemplateType="9091"
+    Url="Lists/TravelExpenseClaimDetailsForSAP"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+
+</Elements>

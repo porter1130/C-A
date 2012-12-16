@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{303C3475-A911-4CD1-8669-1B4575E41A44}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CA.WorkFlow.UI.EBC</RootNamespace>
+    <AssemblyName>CA.WorkFlow.UI.EBC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CA.WorkFlow.UI.EBC.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CA.SharePoint.Utilities">
+      <HintPath>..\..\ref\CA.SharePoint.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.Web">
+      <HintPath>..\..\ref\CA.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.WorkFlow.Common.SAP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0725ba3e979272f2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\work\SapTestConsoleApp\bin\CA.WorkFlow.Common.SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.WorkFlow.UI">
+      <HintPath>..\CA.WorkFlow.UI\bin\CA.WorkFlow.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.CamlQuery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=43536cfde91ea799, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\CodeArt.SharePoint.CamlQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.MultiLanSupport">
+      <HintPath>..\..\ref\CodeArt.SharePoint.MultiLanSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2">
+      <HintPath>..\..\ref\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet">
+      <HintPath>..\..\ref\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\ref\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsian">
+      <HintPath>..\..\ref\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\ref\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Security, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\12\ISAPI\Microsoft.SharePoint.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="NewICSharpCode.SharpZipLib">
+      <HintPath>..\..\ref\NewICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.Monitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.Monitor.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI.ApplicationPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.ApplicationPages.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartForm">
+      <HintPath>..\..\ref\SmartForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ACReview.aspx.cs">
+      <DependentUpon>ACReview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ACReview.aspx.designer.cs">
+      <DependentUpon>ACReview.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ApproveForm.aspx.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ApproveForm.aspx.designer.cs">
+      <DependentUpon>ApproveForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ClaimRelateToSAP.aspx.cs">
+      <DependentUpon>ClaimRelateToSAP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ClaimRelateToSAP.aspx.designer.cs">
+      <DependentUpon>ClaimRelateToSAP.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataEdit2.ascx.cs">
+      <DependentUpon>DataEdit2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataEdit2.ascx.designer.cs">
+      <DependentUpon>DataEdit2.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListEdit.ascx.cs">
+      <DependentUpon>DataListEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListEdit.ascx.designer.cs">
+      <DependentUpon>DataListEdit.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListSAPView.ascx.cs">
+      <DependentUpon>DataListSAPView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListSAPView.ascx.designer.cs">
+      <DependentUpon>DataListSAPView.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListView.ascx.cs">
+      <DependentUpon>DataListView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListView.ascx.designer.cs">
+      <DependentUpon>DataListView.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataView.ascx.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataView.ascx.designer.cs">
+      <DependentUpon>DataView.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DisplayForm.aspx.cs">
+      <DependentUpon>DisplayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DisplayForm.aspx.designer.cs">
+      <DependentUpon>DisplayForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ExpatriateBenefitClaimCommon.cs" />
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\FinanceConfirm.aspx.cs">
+      <DependentUpon>FinanceConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\FinanceConfirm.aspx.designer.cs">
+      <DependentUpon>FinanceConfirm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\SAPDisplay.aspx.cs">
+      <DependentUpon>SAPDisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\SAPDisplay.aspx.designer.cs">
+      <DependentUpon>SAPDisplay.aspx.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GAC\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ACReview.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ApproveForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\ClaimRelateToSAP.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataEdit2.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListEdit.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListSAPView.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataListView.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DataView.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\DisplayForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\EditForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\FinanceConfirm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\jquery-1.4.1-vsdoc.js" />
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\NewForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\ExpatriateBenefitClaim\SAPDisplay.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CA.WorkFlow.UI.EBC.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

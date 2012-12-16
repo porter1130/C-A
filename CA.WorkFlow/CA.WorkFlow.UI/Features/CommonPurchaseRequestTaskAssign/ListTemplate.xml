@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{5d0a0b15-046d-4ae4-ac6b-13a8654b518a}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="PurchaseRequestTaskAssign"
+      DisplayName="PurchaseRequestTaskAssign"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9068"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

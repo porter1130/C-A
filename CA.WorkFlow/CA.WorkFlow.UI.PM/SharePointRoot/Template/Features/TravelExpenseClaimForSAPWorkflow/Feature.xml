@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{547F5253-FDC6-4280-BCB1-DBE6270DAB2B}"
+          Title="TravelExpenseClaimForSAPWorkflow"
+		      Description="Create list template for Travel Expense Claim For SAP Workflow"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

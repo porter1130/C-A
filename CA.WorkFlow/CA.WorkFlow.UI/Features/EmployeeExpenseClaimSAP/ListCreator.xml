@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="EmployeeExpenseClaimSAPWorkFlow"
+    Title="Employee Expense Claim SAP WorkFlow"
+    FeatureId="{06AD005E-6D1E-4B51-92BB-F2A7B226FCB3}"
+    Description="For EmployeeExpenseClaimSAPWorkFlow(main table)"
+    TemplateType="9063"
+    Url="Lists/EmployeeExpenseClaimSAPWorkFlow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="EmployeeExpenseClaimSAPItemsWorkFlow"
+    Title="EmployeeExpenseClaimSAPItemsWorkFlow"
+    FeatureId="{06AD005E-6D1E-4B51-92BB-F2A7B226FCB3}"
+    Description="For EmployeeExpenseClaimSAPItemsWorkFlow details"
+    TemplateType="9064"
+    Url="Lists/EmployeeExpenseClaimSAPItemsWorkFlow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+</Elements>

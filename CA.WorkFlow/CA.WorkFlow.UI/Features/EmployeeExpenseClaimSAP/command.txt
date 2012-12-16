@@ -1,0 +1,16 @@
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o ocdexportlist -url http://ca-liujun:6262/WorkFlowCenter -name "Employee Expense Claim SAP WorkFlow" -dir "D:\Work\Employee Expense Claim SAP WorkFlow"
+STSADM.EXE -o ocdexportlist -url http://ca-liujun:6262/WorkFlowCenter -name "EmployeeExpenseClaimSAPItemsWorkFlow" -dir "D:\Work\EmployeeExpenseClaimSAPItemsWorkFlow"
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name EmployeeExpenseClaimSAP
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name EmployeeExpenseClaimSAP
+
+Operation completed successfully.

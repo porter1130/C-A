@@ -1,0 +1,16 @@
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Purchase Order Workflow" -dir "D:\Work\Purchase Order Workflow"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "PurchaseOrderItems" -dir "D:\Work\PurchaseOrderItems"
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name PurchaseOrderWorkflow
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name PurchaseOrderWorkflow
+
+Operation completed successfully.

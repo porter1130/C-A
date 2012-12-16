@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/"
+         Id="D8721477-BE57-45DD-8803-063029231487"
+         Title="CADownLoadLibraryFilesAction"
+         Description="下载，批量下载功能菜单（会在Actions下显示）"
+         Scope="Web"
+         Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="CADownloadFileAction.xml"/>
+  </ElementManifests>
+</Feature>
+

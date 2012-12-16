@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="b86a3f1a-1eae-452f-bd73-b5fc49e3f3d6"
+          Title="UnlockWorkflowWebPart"
+          Description="Description for UnlockWorkflowWebPart"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Site"
+          DefaultResourceFile="core"
+          ReceiverAssembly="CA.WorkFlow.Common.UnlockWorkflow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fd3b9f063d89dee2"
+          ReceiverClass="CA.WorkFlow.Common.UnlockWorkflow.EventHandlers.Features.UnlockWorkflowWebPartReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>
+    <ElementFile Location="UnlockWorkflowWebPart.webpart" />
+  </ElementManifests>
+</Feature>

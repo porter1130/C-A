@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{b56c975b-337c-4a3f-a603-d1fb5005b1de}"
+          Title="Employee Expense Claim Workflow"
+		      Description="Create list template for Employee Expense Claim Workflow"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

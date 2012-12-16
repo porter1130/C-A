@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{565F80AF-29FB-4F71-9524-10A29E006862}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="CashAdvanceRequest"
+      DisplayName="CashAdvanceRequest"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9080"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+ 
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{975eba91-fd0f-44d8-af20-b5c7b946d38c}"
+          Title="Cash Advance Request WorkFlow"
+		      Description="Create list template for Cash Advance Request WorkFlow"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

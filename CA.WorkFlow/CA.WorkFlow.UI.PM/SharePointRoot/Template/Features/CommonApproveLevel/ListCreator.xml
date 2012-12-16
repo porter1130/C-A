@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="ApproveLevel"
+    Title="ApproveLevel"
+    FeatureId="{220382d8-a31e-4956-a9e1-2e3f32f66419}"
+    Description="For item codes"
+    TemplateType="9057"
+    Url="Lists/ApproveLevel"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

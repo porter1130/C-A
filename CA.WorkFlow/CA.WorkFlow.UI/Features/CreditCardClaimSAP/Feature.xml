@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{A7989BAA-7898-4C0E-BEEC-764CBAC22292}"
+          Title="Credit Card Claim SAP Workflow"
+		      Description="Create list template for Credit Card Claim SAP Workflow"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

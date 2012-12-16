@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{5d0a0b15-046d-4ae4-ac6b-13a8654b518a}"
+          Title="Common PurchaseRequestTaskAssign"
+		      Description="Create list template for PurchaseRequestTaskAssign"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

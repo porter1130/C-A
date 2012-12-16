@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{220382d8-a31e-4956-a9e1-2e3f32f66419}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="ApproveLevel"
+      DisplayName="ApproveLevel"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9057"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

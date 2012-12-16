@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{06AD005E-6D1E-4B51-92BB-F2A7B226FCB3}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="EmployeeExpenseClaimSAPWorkFlow"
+      DisplayName="Employee Expense Claim SAP WorkFlow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9063"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{06AD005E-6D1E-4B51-92BB-F2A7B226FCB3}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="EmployeeExpenseClaimSAPItemsWorkFlow"
+      DisplayName="EmployeeExpenseClaimSAPItemsWorkFlow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9064"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

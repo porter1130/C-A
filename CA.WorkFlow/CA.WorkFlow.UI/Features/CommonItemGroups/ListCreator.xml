@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="ItemGroups"
+    Title="Item Groups"
+    FeatureId="{c46a1f81-fa14-46de-8989-b710561d7cb4}"
+    Description="For item groups"
+    TemplateType="9053"
+    Url="Lists/ItemGroups"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

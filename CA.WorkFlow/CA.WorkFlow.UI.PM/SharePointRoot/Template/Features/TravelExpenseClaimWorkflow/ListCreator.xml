@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="TravelExpenseClaim"
+    Title="Travel Expense Claim"
+    FeatureId="{d2a1517c-a817-4188-a18a-1faeadeb284e}"
+    Description=""
+    TemplateType="9030"
+    Url="Lists/TravelExpenseClaim"
+    OnQuickLaunch="TRUE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="TravelExpenseClaimDetails"
+    Title="Travel Expense Claim Details"
+    FeatureId="{d2a1517c-a817-4188-a18a-1faeadeb284e}"
+    Description=""
+    TemplateType="9031"
+    Url="Lists/TravelExpenseClaimDetails"
+    OnQuickLaunch="TRUE"
+    >
+  </ListInstance>
+</Elements>

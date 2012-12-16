@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{4f8767b1-1b4c-4dab-bc42-1d0aad4cfc6f}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="ExpenseClaimStd"
+      DisplayName="ExpenseClaimStd"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9062"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

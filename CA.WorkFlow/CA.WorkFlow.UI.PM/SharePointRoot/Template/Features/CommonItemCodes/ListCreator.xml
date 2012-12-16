@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="ItemCodes"
+    Title="Item Codes"
+    FeatureId="{7c3ae92c-a571-429e-afb0-a93beea0fb63}"
+    Description="For item codes"
+    TemplateType="9050"
+    Url="Lists/ItemCodes"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

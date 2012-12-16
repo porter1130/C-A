@@ -1,0 +1,22 @@
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "EmailTemplate" -dir "D:\Work\EmailTemplate"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Modules" -dir "D:\Work\Modules"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Delegates" -dir "D:\Work\Delegates"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Cost Centers" -dir "D:\Work\CostCenters"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "LevelList" -dir "D:\Work\LevelList"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "MailMember" -dir "D:\Work\MailMember"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "ExchangeRates" -dir "D:\Work\ExchangeRates"
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name CommonList
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name CommonList
+
+Operation completed successfully.
+

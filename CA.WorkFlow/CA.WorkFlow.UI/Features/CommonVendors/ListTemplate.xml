@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{d498dfaa-5112-4970-a477-a834143ab044}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="Vendors"
+      DisplayName="Vendors"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9059"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

@@ -1,0 +1,5 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\target\CA.SharePoint.WebControls.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\target\CA.SharePoint.WebControls.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.SharePoint.WebControls\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.SharePoint.WebControls\obj\Debug\CA.SharePoint.WebControls.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.SharePoint.WebControls\obj\Debug\CA.SharePoint.WebControls.pdb

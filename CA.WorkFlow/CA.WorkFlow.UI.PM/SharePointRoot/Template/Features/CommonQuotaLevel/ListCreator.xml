@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="QuotaLevel"
+    Title="QuotaLevel"
+    FeatureId="{3b60e1c1-d4aa-4e21-9418-a82215cb21f9}"
+    Description="For quotal level"
+    TemplateType="9058"
+    Url="Lists/QuotaLevel"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

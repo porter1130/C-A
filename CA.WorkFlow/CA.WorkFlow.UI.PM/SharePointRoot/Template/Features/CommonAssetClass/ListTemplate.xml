@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{0a9eef76-7c4b-417e-9409-84b35189aff7}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="AssetClass"
+      DisplayName="Asset Class"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9054"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

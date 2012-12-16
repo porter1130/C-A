@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers
+    ListTemplateId="9010"
+    ListTemplateOwner="{4bf06d7e-1c9a-4e7b-ac72-22916d52e1dc}">
+    <Receiver>
+      <Assembly>
+        CA.WorkFlow.Common.EventHandler,
+        Version=1.0.0.0,
+        Culture=Neutral,
+        PublicKeyToken=672895aac8e2100e
+      </Assembly>
+      <Class>CA.WorkFlow.Eventhandler.EventHandlers.Features.TravelRequestHandlerReceiver</Class>
+      <Name>TravelRequestHandlerReceiver</Name>
+      <Type>ItemDeleting</Type>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>

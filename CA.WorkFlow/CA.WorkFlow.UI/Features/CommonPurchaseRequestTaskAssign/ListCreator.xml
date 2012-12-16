@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="PurchaseRequestTaskAssign"
+    Title="PurchaseRequestTaskAssign"
+    FeatureId="{5d0a0b15-046d-4ae4-ac6b-13a8654b518a}"
+    Description="For item groups"
+    TemplateType="9068"
+    Url="Lists/PurchaseRequestTaskAssign"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

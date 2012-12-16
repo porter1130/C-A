@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature  Id="3cfdc2cb-f5b4-4fa5-99bf-ec49878cb925"
+          Title="TravelRequestHandler"
+          Description="Description for TravelRequestHandler"
+          Version="1.0.0.0"
+          Hidden="FALSE"
+          Scope="Web"
+          DefaultResourceFile="core"
+          ReceiverAssembly="CA.WorkFlow.Eventhandler, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3f8131e36c2a78b7"
+          ReceiverClass="CA.WorkFlow.Eventhandler.EventHandlers.Features.TravelRequestHandlerReceiver"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="elements.xml"/>    
+  </ElementManifests>
+</Feature>

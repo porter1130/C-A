@@ -1,0 +1,151 @@
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name CommonDataAutoFill
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name CommonDataAutoFill
+
+Operation completed successfully.
+
+
+TravelRequest2Submit1
+Pending Travel Request
+Dear {0},<br /><br /> 
+Your Travel Request has been passed to {1} for approval. 
+<br /> 
+<br /> 
+-EWF System Account 
+
+
+
+
+TravelRequest2Submit2
+Pending Travel Request
+Dear {0},<br /><br /> 
+{1} has submitted Travel Request for approval. 
+<br /> 
+No: {2} 
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{3}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account 
+
+
+TravelRequest2Submit3
+Pending Travel Request
+Dear {0},<br /><br /> 
+{1} has submitted Travel Request for your approval.
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{2}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account 
+
+
+
+
+TravelRequest2ActionReject
+Travel Request Rejection
+Dear {0},<br /><br /> 
+{1}'s Travel Request has been rejected by {2}. 
+<br /> 
+No: {3} 
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{4}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account 
+
+
+TravelRequest2ActionApprove
+Travel Request Approved
+Dear {0},<br /><br /> 
+{1}'s Travel Request has been approved.
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{2}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account 
+
+
+TravelRequest2Finance
+Travel Request Approved
+Dear {0},<br /><br /> 
+{1}'s Travel Request with Cash Advance has been approved. 
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{2}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account
+
+
+
+TravelRequest2NotifyApprove
+Travel Request Approved
+Dear {0},<br /><br /> 
+Your Travel Request has been approved.
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{1}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account 
+
+
+TravelRequest2NotifyReject
+Travel Request Rejection
+Dear {0},<br /><br /> 
+Your Travel Request has been rejected by {1}.
+<br /> 
+<br /> 
+Please view the detailed information by <a href='{2}' target="_blank">clicking here</a>! 
+<br/> <br/> 
+-EWF System Account 
+
+
+
+
+
+//PurchaseRequestApprovedToApplicant
+To Applicant
+Dear {0},<br /><br /> 
+Your Purchase Request has been approved. 
+<br />
+<br /> 
+Please view the detailed information by <a href='{1}' target="_blank">clicking here</a>! 
+<br/>
+<br/> 
+-EWF System Account
+
+
+
+//PurchaseRequestApprovedToHO
+To HO
+Dear {0},<br /><br /> 
+{1}'s Purchase Request has been approved. 
+<br />
+PO Number: {2}
+<br />
+<br /> 
+Please view the detailed information by <a href='{3}' target="_blank">clicking here</a>! 
+<br/>
+<br/> 
+-EWF System Account
+
+
+//PurchaseRequestReject
+To Applicant
+Dear {0},<br /><br /> 
+Your Purchase Request has been rejected by {1}
+<br />
+<br /> 
+Please view the detailed information by <a href='{2}' target="_blank">clicking here</a>! 
+<br/>
+<br/> 
+-EWF System Account

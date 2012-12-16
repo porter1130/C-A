@@ -1,0 +1,5 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.UnlockWorkflow\GAC\CA.WorkFlow.Common.UnlockWorkflow.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.UnlockWorkflow\GAC\CA.WorkFlow.Common.UnlockWorkflow.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.UnlockWorkflow\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.UnlockWorkflow\obj\Debug\CA.WorkFlow.Common.UnlockWorkflow.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.UnlockWorkflow\obj\Debug\CA.WorkFlow.Common.UnlockWorkflow.pdb

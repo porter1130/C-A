@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="Vendors"
+    Title="Vendors"
+    FeatureId="{d498dfaa-5112-4970-a477-a834143ab044}"
+    Description="For item groups"
+    TemplateType="9059"
+    Url="Lists/Vendors"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

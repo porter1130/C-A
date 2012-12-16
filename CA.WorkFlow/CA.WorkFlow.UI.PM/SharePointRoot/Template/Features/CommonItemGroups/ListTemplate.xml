@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{c46a1f81-fa14-46de-8989-b710561d7cb4}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="ItemGroups"
+      DisplayName="Item Groups"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9053"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

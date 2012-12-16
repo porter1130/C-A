@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{A7989BAA-7898-4C0E-BEEC-764CBAC22292}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="Credit Card Claim SAP Workflow"
+      DisplayName="Credit Card Claim SAP Workflow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9066"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{A7989BAA-7898-4C0E-BEEC-764CBAC22292}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="Credit Card Claim SAP Detail"
+      DisplayName="Credit Card Claim SAP Detail"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9067"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

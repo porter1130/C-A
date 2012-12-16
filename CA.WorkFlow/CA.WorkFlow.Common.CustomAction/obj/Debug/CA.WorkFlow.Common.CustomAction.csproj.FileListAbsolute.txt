@@ -1,0 +1,6 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.CustomAction\GAC\CA.WorkFlow.Common.CustomAction.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.CustomAction\GAC\CA.WorkFlow.Common.CustomAction.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.CustomAction\GAC\NewICSharpCode.SharpZipLib.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.CustomAction\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.CustomAction\obj\Debug\CA.WorkFlow.Common.CustomAction.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.CustomAction\obj\Debug\CA.WorkFlow.Common.CustomAction.pdb

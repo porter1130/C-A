@@ -1,0 +1,21 @@
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Travel Request Workflow2" -dir "D:\Work\Travel Request Workflow2"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Travel Details2" -dir "D:\Work\Travel Details2"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Travel Hotel Info2" -dir "D:\Work\Travel Hotel Info2"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Travel Vehicle Info2" -dir "D:\Work\Travel Vehicle Info2"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Travel Policy" -dir "D:\Work\Travel Policy"
+STSADM.EXE -o ocdexportlist -url http://toddy:9000/WorkFlowCenter -name "Flight Price" -dir "D:\Work\Flight Price"
+
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name TravelRequestWorkflow
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name TravelRequestWorkflow
+
+Operation completed successfully.

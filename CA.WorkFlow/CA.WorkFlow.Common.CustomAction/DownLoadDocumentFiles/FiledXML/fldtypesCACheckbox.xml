@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">CACheckBoxFieldCAProject</Field>
+    <Field Name="ParentType">Text</Field>
+    <Field Name="TypeDisplayName">文档前的CheckBox供CA项目下载用</Field>
+    <!--<Field Name="TypeShortDescription">CACheckBoxControlTypeShortDescription</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowOnListCreate">TRUE</Field>
+    <Field Name="ShowOnDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowOnSurveyCreate">TRUE</Field>
+    <Field Name="ShowOnColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldEditorUserControl"></Field>
+    <Field Name="Sortable">TRUE</Field>
+    <Field Name="Filterable">FALSE</Field>-->
+    <Field Name="FieldTypeClass">CA.WorkFlow.Common.CustomAction.DownLoadDocumentFiles.CACheckBoxField,CA.WorkFlow.Common.CustomAction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cefca58d1946b8ca</Field>
+    <RenderPattern Name="DisplayPattern">
+      <!--<IfEqual>
+       <Expr1><LookupColumn Name="FSObjType" /></Expr1>
+       <Expr2>0</Expr2>
+       <Then>-->
+      <HTML>
+        <![CDATA[<input type='checkbox' ]]>
+      </HTML>
+      <HTML>
+        <![CDATA[LItemId=']]>
+      </HTML>
+      <Column Name="ID" HTMLEncode="TRUE" />
+      <!--<HTML><![CDATA[' />]]></HTML>-->
+
+
+
+      <HTML>
+        <![CDATA[' ServerURl=']]>
+      </HTML>
+      <LookupColumn Name="FileRef"  HTMLEncode="TRUE" URLEncodeAsURL="TRUE" />
+      <HTML><![CDATA[' />]]></HTML>
+      <!--</Then>
+     </IfEqual>-->
+    </RenderPattern>
+  </FieldType>
+</FieldTypes>
+

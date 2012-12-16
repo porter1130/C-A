@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{547F5253-FDC6-4280-BCB1-DBE6270DAB2B}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="TravelExpenseClaimForSAP"
+      DisplayName="Travel Expense Claim For SAP"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9090"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{547F5253-FDC6-4280-BCB1-DBE6270DAB2B}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="TravelExpenseClaimDetailsForSAP"
+      DisplayName="Travel Expense Claim Details For SAP"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9091"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

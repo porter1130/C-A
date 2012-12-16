@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="PurchaseRequestWorkflow"
+    Title="Purchase Request Workflow"
+    FeatureId="{5d11225e-f028-4290-9077-e1bb5c2a908b}"
+    Description="For purchase request workflow(main table)"
+    TemplateType="9051"
+    Url="Lists/PurchaseRequestWorkflow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="PurchaseRequestItems"
+    Title="PurchaseRequestItems"
+    FeatureId="{5d11225e-f028-4290-9077-e1bb5c2a908b}"
+    Description="For purchase request item details"
+    TemplateType="9052"
+    Url="Lists/PurchaseRequestItems"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+</Elements>

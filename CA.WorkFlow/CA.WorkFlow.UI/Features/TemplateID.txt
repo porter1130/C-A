@@ -1,0 +1,51 @@
+﻿9051	PurchaseRequestWorkflow
+9052	PurchaseRequestItems
+9055	PurchaseOrderWorkflow
+9056	PurchaseOrderItems
+9057	ApproveLevel
+9054	AssetClass
+9050	ItemCodes
+9053	ItemGroups
+9058	QuotaLevel
+9059	Vendors
+9060	EmployeeExpenseClaimWorkflow
+9061	EmployeeExpenseClaimItems
+9062	ExpenseClaimStd
+9063    EmployeeExpenseClaimSAPWorkFlow
+9064    EmployeeExpenseClaimSAPItemsWorkFlow
+9065    CashAdvanceRequestSAP
+9066    CreditCardClaimSAPWorkflow
+9067    CreditCardClaimSAPDetail
+
+
+9004	EmailTemplate
+9007	Modules
+9008	Delegates
+9017	CostCenters
+9018	LevelList
+9019	MailMember
+9020	ExchangeRates
+9010	TravelRequestWorkflow
+9011	TravelDetails
+9012	TravelHotelInfo
+9013	TravelVehicleInfo
+9014	TravelPolicy
+9015	FlightPrice
+
+9000	NonTradeSupplierSetupMaintenanceWorkflow
+9003	CreationOrder
+9001	InternalOrderMaintenanceWorkflow
+9005	LeaveData
+9006	LeaveDownloads
+9009	DemoWorkflow
+
+9080    CashAdvanceRequest
+9081	CreditCardClaimWorkflow
+9082	CreditCardClaimDetail
+9083    CreditCardBill
+9084    CreditCardEmployeeMapping
+
+9090	TravelExpenseClaimForSAP
+9091    TravelExpenseClaimDetailsForSAP
+
+

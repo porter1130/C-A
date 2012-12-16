@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{7c3ae92c-a571-429e-afb0-a93beea0fb63}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="ItemCodes"
+      DisplayName="Item Codes"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9050"
+      VersioningEnabled="FALSE">
+  </ListTemplate>  
+</Elements>

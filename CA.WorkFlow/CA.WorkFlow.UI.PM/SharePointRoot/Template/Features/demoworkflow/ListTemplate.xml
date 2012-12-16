@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{9c6d3798-7ad6-4f29-9fc9-426535f9cc3d}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="DemoWorkflow"
+      DisplayName="DemoWorkflow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9009"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{199C1F62-09E8-44FF-82A3-FEA5904E71E7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CA.WorkFlow.UI.NPUC</RootNamespace>
+    <AssemblyName>CA.WorkFlow.UI.NPUC</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CA.WorkFlow.UI.NPUC.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CA.SharePoint.Utilities">
+      <HintPath>..\..\ref\CA.SharePoint.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.Web">
+      <HintPath>..\..\ref\CA.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.WorkFlow.Common.SAP">
+      <HintPath>..\..\..\..\..\..\work\SapTestConsoleApp\bin\CA.WorkFlow.Common.SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.CamlQuery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=43536cfde91ea799, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\CodeArt.SharePoint.CamlQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.MultiLanSupport">
+      <HintPath>..\..\ref\CodeArt.SharePoint.MultiLanSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2">
+      <HintPath>..\..\ref\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet">
+      <HintPath>..\..\ref\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\ref\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsian">
+      <HintPath>..\..\ref\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\ref\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Security, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\12\ISAPI\Microsoft.SharePoint.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="NewICSharpCode.SharpZipLib">
+      <HintPath>..\..\ref\NewICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.Monitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.Monitor.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI.ApplicationPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.ApplicationPages.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartForm">
+      <HintPath>..\..\ref\SmartForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\ApproveForm.aspx.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\ApproveForm.aspx.designer.cs">
+      <DependentUpon>ApproveForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DataEdit.ascx.cs">
+      <DependentUpon>DataEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DataEdit.ascx.designer.cs">
+      <DependentUpon>DataEdit.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DataView.ascx.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DataView.ascx.designer.cs">
+      <DependentUpon>DataView.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DisplayForm.aspx.cs">
+      <DependentUpon>DisplayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DisplayForm.aspx.designer.cs">
+      <DependentUpon>DisplayForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\NewProductionUnitCreation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GAC\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CA.WorkFlow.UI.NPUC.snk" />
+    <None Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\Tem\Blank Supplier profile - 2011 9 8.xls" />
+    <None Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\Tem\Garment Supplier assessment audit form 5 Dec 11-.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\ApproveForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DataEdit.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DataView.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\DisplayForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\EditForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\jquery-1.4.1-vsdoc.js" />
+    <Content Include="_Layouts\CA\WorkFlows\NewProductionUnitCreation\NewForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CA.WorkFlow.UI\CA.WorkFlow.UI.csproj">
+      <Project>{22DD55C9-AFBC-4D0D-A25A-1BFB309BC759}</Project>
+      <Name>CA.WorkFlow.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

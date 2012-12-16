@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{5d11225e-f028-4290-9077-e1bb5c2a908b}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="PurchaseRequestWorkflow"
+      DisplayName="Purchase Request Workflow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9051"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{5d11225e-f028-4290-9077-e1bb5c2a908b}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="PurchaseRequestItems"
+      DisplayName="PurchaseRequestItems"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9052"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

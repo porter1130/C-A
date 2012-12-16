@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListTemplate
+      FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="CreditCardClaimWorkflow"
+      DisplayName="Credit Card Claim Workflow"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9081"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="CreditCardClaimDetail"
+      DisplayName="Credit Card Claim Detail"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9082"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="CreditCardBill"
+      DisplayName="Credit Card Bill"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9083"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+  <ListTemplate
+      FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+      BaseType="0"
+      Category="Custom Lists"
+      Name="CreditCardEmployeeMapping"
+      DisplayName="Credit Card Employee Mapping"
+      Description=""
+      DisableAttachments="True"
+      DisallowContentTypes="False"
+      EnableModeration="False"
+      FolderCreation="False"
+      Hidden="False"
+      HiddenList="False"
+      OnQuickLaunch="True"
+      SecurityBits="11"
+      Sequence="500"
+      Type="9084"
+      VersioningEnabled="FALSE">
+  </ListTemplate>
+</Elements>

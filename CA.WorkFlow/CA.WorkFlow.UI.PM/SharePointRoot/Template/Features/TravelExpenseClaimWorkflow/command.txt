@@ -1,0 +1,16 @@
+
+C:\Documents and Settings\Administrator>
+STSADM.EXE -o ocdexportlist -url http://porter:1130/WorkFlowCenter -name "Travel Expense Claim" -dir "D:\Work\Travel Expense Claim"
+STSADM.EXE -o ocdexportlist -url http://porter:1130/WorkFlowCenter -name "Travel Expense Claim Details" -dir "D:\Work\Travel Expense Claim Details"
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name TravelExpenseClaimWorkflow
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name TravelExpenseClaimWorkflow
+
+Operation completed successfully.

@@ -1,0 +1,7 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\bin\Release\CA.WorkFlow.Common.SAP.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\bin\Release\CA.WorkFlow.Common.SAP.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\bin\Release\sapnco.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\bin\Release\sapnco_utils.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\obj\Release\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\obj\Release\CA.WorkFlow.Common.SAP.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\obj\Release\CA.WorkFlow.Common.SAP.pdb

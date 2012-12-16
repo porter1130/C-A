@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="CreditCardClaimWorkflow"
+    Title="Credit Card Claim Workflow"
+    FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+    Description="For CreditCardClaimWorkflow(main table)"
+    TemplateType="9081"
+    Url="Lists/CreditCardClaimWorkflow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="CreditCardClaimDetail"
+    Title="Credit Card Claim Detail"
+    FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+    Description="For CreditCardClaimDetail details"
+    TemplateType="9082"
+    Url="Lists/CreditCardClaimDetail"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+   Id="CreditCardBill"
+   Title="Credit Card Bill"
+   FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+   Description="For "
+   TemplateType="9083"
+   Url="Lists/CreditCardBill"
+   OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+   Id="CreditCardEmployeeMapping"
+   Title="Credit Card Employee Mapping"
+   FeatureId="{0FF6737E-73AF-467B-8BE2-B958A1B0ADA1}"
+   Description="For CreditCardEmployeeMapping"
+   TemplateType="9084"
+   Url="Lists/CreditCardEmployeeMapping"
+   OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+</Elements>

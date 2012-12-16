@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F1EE91A-C933-4E57-8732-2DAD7E515AC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CA.WorkFlow.UI.OSP</RootNamespace>
+    <AssemblyName>CA.WorkFlow.UI.OSP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CA.SharePoint.Utilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=440465db37615a38, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\CA.SharePoint.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.CamlQuery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=43536cfde91ea799, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\CodeArt.SharePoint.CamlQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet, Version=27.3.0.1008, Culture=neutral, PublicKeyToken=b1b72c69714d4847, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\ISAPI\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.Monitor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.Monitor.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI.ApplicationPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.ApplicationPages.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartForm">
+      <HintPath>..\..\ref\SmartForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\ApproveForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\DataEdit.ascx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\DataView.ascx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\DisPlayForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\EditForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\NewForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\OSPReport.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\NewOSP\Userinfo.ascx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\ApproveForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\DataEdit.ascx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\DataView.ascx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\DisPlayForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\EditForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\NewForm.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\OSPReport.aspx" />
+    <Content Include="_Layouts\CA\WorkFlows\OSP\Userinfo.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\ApproveForm.aspx.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\ApproveForm.aspx.designer.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\DataEdit.ascx.cs">
+      <DependentUpon>DataEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\DataEdit.ascx.designer.cs">
+      <DependentUpon>DataEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\DataView.ascx.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\DataView.ascx.designer.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\DisPlayForm.aspx.cs">
+      <DependentUpon>DisPlayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\DisPlayForm.aspx.designer.cs">
+      <DependentUpon>DisPlayForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\OSPCommon.cs" />
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\OSPReport.aspx.cs">
+      <DependentUpon>OSPReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\OSPReport.aspx.designer.cs">
+      <DependentUpon>OSPReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\Userinfo.ascx.cs">
+      <DependentUpon>Userinfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\NewOSP\Userinfo.ascx.designer.cs">
+      <DependentUpon>Userinfo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\ApproveForm.aspx.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\ApproveForm.aspx.designer.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\DataEdit.ascx.cs">
+      <DependentUpon>DataEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\DataEdit.ascx.designer.cs">
+      <DependentUpon>DataEdit.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\DataView.ascx.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\DataView.ascx.designer.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\DisPlayForm.aspx.cs">
+      <DependentUpon>DisPlayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\DisPlayForm.aspx.designer.cs">
+      <DependentUpon>DisPlayForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\OSPCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\OSPReport.aspx.cs">
+      <DependentUpon>OSPReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\OSPReport.aspx.designer.cs">
+      <DependentUpon>OSPReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\Userinfo.ascx.cs">
+      <DependentUpon>Userinfo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\OSP\Userinfo.ascx.designer.cs">
+      <DependentUpon>Userinfo.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_Layouts\CA\Layout.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CA.WorkFlow.Common.SAP\CA.WorkFlow.Common.SAP.csproj">
+      <Project>{ECF4E464-3D0A-42AA-AAFD-A6AC26440CD8}</Project>
+      <Name>CA.WorkFlow.Common.SAP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CA.WorkFlow.UI\CA.WorkFlow.UI.csproj">
+      <Project>{22DD55C9-AFBC-4D0D-A25A-1BFB309BC759}</Project>
+      <Name>CA.WorkFlow.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1217</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

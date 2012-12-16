@@ -1,0 +1,19 @@
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o ocdexportlist -url http://ca-liujun:6262/WorkFlowCenter -name "Credit Card Claim Workflow" -dir "D:\Work\Credit Card Claim Workflow"
+STSADM.EXE -o ocdexportlist -url http://ca-liujun:6262/WorkFlowCenter -name "Credit Card Claim Detail" -dir "D:\Work\Credit Card Claim Detail"
+STSADM.EXE -o ocdexportlist -url http://ca-liujun:6262/WorkFlowCenter -name "Credit Card Bill" -dir "D:\Work\Credit Card Bill"
+STSADM.EXE -o ocdexportlist -url http://ca-liujun:6262/WorkFlowCenter -name "Credit Card Employee Mapping" -dir "D:\Work\Credit Card Employee Mapping"
+
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o installfeature -name CreditCardClaimWorkFlow
+
+Operation completed successfully.
+
+C:\Program Files\Common Files\Microsoft Shared\web server extensions\12\BIN>
+STSADM.EXE -o uninstallfeature -name CreditCardClaimWorkFlow
+
+Operation completed successfully.

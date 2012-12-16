@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="ExchangeRates"
+    Title="ExchangeRates"
+    FeatureId="{9e1913f1-2b3d-425d-965b-dc43090e9e7e}"
+    Description=""
+    TemplateType="9020"
+    Url="Lists/ExchangeRates"
+    OnQuickLaunch="TRUE"
+    >
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[EUR]]>
+          </Field>
+          <Field Name="From">
+            <![CDATA[EUR]]>
+          </Field>
+          <Field Name="To">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="Rate">
+            <![CDATA[9.1432]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[USD]]>
+          </Field>
+          <Field Name="From">
+            <![CDATA[USD]]>
+          </Field>
+          <Field Name="To">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="Rate">
+            <![CDATA[6.4441]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[CHF]]>
+          </Field>
+          <Field Name="From">
+            <![CDATA[CHF]]>
+          </Field>
+          <Field Name="To">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="Rate">
+            <![CDATA[8.3903]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[GBP]]>
+          </Field>
+          <Field Name="From">
+            <![CDATA[GBP]]>
+          </Field>
+          <Field Name="To">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="Rate">
+            <![CDATA[10.4813]]>
+          </Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,627 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="TravelPolicy"
+    Title="Travel Policy"
+    FeatureId="{4bf06d7e-1c9a-4e7b-ac72-22916d52e1dc}"
+    Description=""
+    TemplateType="9014"
+    Url="Lists/TravelPolicy"
+    OnQuickLaunch="TRUE"
+    >
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[shanghai]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[上海]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier I City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[700]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[beijing]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[北京]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier I City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[700]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[shenzhen]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[深圳]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier I City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[700]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[guangzhou]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[广州]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[chengdu]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[成都]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[changsha]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[长沙]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[dalian]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[大连]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[zhengzhou]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[郑州]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[shenyang]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[沈阳]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[tianjin]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[天津]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[jinan]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[济南]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[tangshan]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[唐山]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[wuhan]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[武汉]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[shijiazhuang]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[石家庄]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[Tier II/III City]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[400]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[hongkong]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[香港]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[China]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[hongkong]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[RMB]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[50]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[70]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[FarEast]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[Oversea]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[fareast]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[EUR]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[20]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[10]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[20]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[USA]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[Oversea]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[usa]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[USD]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[20]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[10]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[20]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[Switzerland]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[Oversea]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[switzerland]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[CHF]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[30]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[15]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[30]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[UK]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[Oversea]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[uk]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[GBP]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[15]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[10]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[25]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[Europe & North America]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[Oversea]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[europe & north america]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[EUR]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[15]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[10]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[30]]>
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Title">
+            <![CDATA[Central & South America]]>
+          </Field>
+          <Field Name="City">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="Country">
+            <![CDATA[Oversea]]>
+          </Field>
+          <Field Name="Location">
+            <![CDATA[central & south america]]>
+          </Field>
+          <Field Name="Currency">
+            <![CDATA[USD]]>
+          </Field>
+          <Field Name="HotelLimit">
+            <![CDATA[]]>
+          </Field>
+          <Field Name="BreakfastLimit">
+            <![CDATA[15]]>
+          </Field>
+          <Field Name="LunchLimit">
+            <![CDATA[10]]>
+          </Field>
+          <Field Name="DinnerLimit">
+            <![CDATA[15]]>
+          </Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

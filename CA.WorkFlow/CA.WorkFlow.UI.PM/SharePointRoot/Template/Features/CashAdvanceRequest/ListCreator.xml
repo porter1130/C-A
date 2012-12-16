@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="CashAdvanceRequest"
+    Title="CashAdvanceRequest"
+    FeatureId="{565F80AF-29FB-4F71-9524-10A29E006862}"
+    Description="For CashAdvanceRequest(main table)"
+    TemplateType="9080"
+    Url="Lists/CashAdvanceRequest"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  
+</Elements>

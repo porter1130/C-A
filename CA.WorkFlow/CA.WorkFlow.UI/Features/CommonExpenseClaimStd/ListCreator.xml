@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="ExpenseClaimStd"
+    Title="ExpenseClaimStd"
+    FeatureId="{4f8767b1-1b4c-4dab-bc42-1d0aad4cfc6f}"
+    Description="For item groups"
+    TemplateType="9062"
+    Url="Lists/ExpenseClaimStd"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="AssetClass"
+    Title="Asset Class"
+    FeatureId="{0a9eef76-7c4b-417e-9409-84b35189aff7}"
+    Description="For asset class"
+    TemplateType="9054"
+    Url="Lists/AssetClass"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>  
+</Elements>

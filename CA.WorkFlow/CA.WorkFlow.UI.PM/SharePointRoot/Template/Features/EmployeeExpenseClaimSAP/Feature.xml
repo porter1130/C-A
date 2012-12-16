@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{06AD005E-6D1E-4B51-92BB-F2A7B226FCB3}"
+          Title="Employee Expense Claim SAP WorkFlow"
+		      Description="Create list template for Employee Expense Claim SAP WorkFlow"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

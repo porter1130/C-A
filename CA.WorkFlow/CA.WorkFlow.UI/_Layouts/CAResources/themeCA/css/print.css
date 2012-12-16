@@ -1,0 +1,19 @@
+﻿/*---------------------------------Print Style Begin--------------------------*/
+@media Print        
+{
+	.noPrint   
+	{
+		DISPLAY:   none;
+	}
+	
+    .full-width	
+	{
+	    width: 625px;
+	}
+	
+	.PageNext
+	{
+	    page-break-after: always;
+	}
+}
+/*---------------------------------Print Style End--------------------------*/

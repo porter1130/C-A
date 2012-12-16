@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="EmployeeExpenseClaimWorkflow"
+    Title="Employee Expense Claim Workflow"
+    FeatureId="{b56c975b-337c-4a3f-a603-d1fb5005b1de}"
+    Description="For EmployeeExpenseClaimWorkflow(main table)"
+    TemplateType="9060"
+    Url="Lists/EmployeeExpenseClaimWorkflow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="EmployeeExpenseClaimItems"
+    Title="EmployeeExpenseClaimItems"
+    FeatureId="{b56c975b-337c-4a3f-a603-d1fb5005b1de}"
+    Description="For EmployeeExpenseClaimItems details"
+    TemplateType="9061"
+    Url="Lists/EmployeeExpenseClaimItems"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+</Elements>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements
+    xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Id="PaymentRequestSAPWorkFlow"
+    Title="Payment Request SAP WorkFlow"
+    FeatureId="{27C5350E-A008-49C5-9C16-F1F2458488E0}"
+    Description="For Payment Request SAP WorkFlow(main table)"
+    TemplateType="9068"
+    Url="Lists/PaymentRequestSAPWorkFlow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+  <ListInstance
+    Id="PaymentRequestSAPItemsWorkFlow"
+    Title="Payment Request SAP Items WorkFlow"
+    FeatureId="{27C5350E-A008-49C5-9C16-F1F2458488E0}"
+    Description="For Payment Request SAP Items WorkFlow details"
+    TemplateType="9069"
+    Url="Lists/PaymentRequestSAPItemsWorkFlow"
+    OnQuickLaunch="FALSE"
+    >
+  </ListInstance>
+</Elements>

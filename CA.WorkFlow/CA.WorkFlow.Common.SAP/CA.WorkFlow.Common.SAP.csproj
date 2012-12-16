@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ECF4E464-3D0A-42AA-AAFD-A6AC26440CD8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SAP.Middleware.Exchange</RootNamespace>
+    <AssemblyName>CA.WorkFlow.Common.SAP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\work\SapTestConsoleApp\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CA.WorkFlow.Common.SAP.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="sapnco, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\sapnco.dll</HintPath>
+    </Reference>
+    <Reference Include="sapnco_utils, Version=3.0.0.42, Culture=neutral, PublicKeyToken=50436dca5c7f7d23, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\sapnco_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exchange\ISapExchange.cs" />
+    <Compile Include="Exchange\SapCashAdvance.cs" />
+    <Compile Include="Exchange\SapCommFunctions.cs" />
+    <Compile Include="Exchange\SapConnector.cs" />
+    <Compile Include="Exchange\SapCreditCard.cs" />
+    <Compile Include="Exchange\SapDestinationNames.cs" />
+    <Compile Include="Exchange\SapEmployeeCCClaim.cs" />
+    <Compile Include="Exchange\SapEmployeeClaim.cs" />
+    <Compile Include="Exchange\SapExchange.cs" />
+    <Compile Include="Exchange\SapExchangeClaim.cs" />
+    <Compile Include="Exchange\SapExchangeFactory.cs" />
+    <Compile Include="Exchange\SapExchangeLog.cs" />
+    <Compile Include="Exchange\SapExtenMethods.cs" />
+    <Compile Include="Exchange\SapFunctionNames.cs" />
+    <Compile Include="Exchange\SapFunctions.cs" />
+    <Compile Include="Exchange\SapOSP.cs" />
+    <Compile Include="Exchange\SapOSPMod.cs" />
+    <Compile Include="Exchange\SapParameter.cs" />
+    <Compile Include="Exchange\SapPOTypeChange.cs" />
+    <Compile Include="Exchange\SapPOTypeChangeQuery.cs" />
+    <Compile Include="Exchange\SapPurchaseIV.cs" />
+    <Compile Include="Exchange\SapPurchaseOrder.cs" />
+    <Compile Include="Exchange\SapPurchaseOrderMod.cs" />
+    <Compile Include="Exchange\SapPurchaseOrderQuery.cs" />
+    <Compile Include="Exchange\SapPurchaseOrderRet.cs" />
+    <Compile Include="Exchange\SapResult.cs" />
+    <Compile Include="Exchange\SapStoresReceive.cs" />
+    <Compile Include="Exchange\SapTravelClaim.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table\ACCOUNTGL.cs" />
+    <Compile Include="Table\ACCOUNTPAYABLE.cs" />
+    <Compile Include="Table\ACCOUNTTAX.cs" />
+    <Compile Include="Table\CURRENCYAMOUNT.cs" />
+    <Compile Include="Table\DOCUMENTHEADER.cs" />
+    <Compile Include="Table\GRCODE.cs" />
+    <Compile Include="Table\GRHEADER.cs" />
+    <Compile Include="Table\GRITEM.cs" />
+    <Compile Include="Table\OSPArg.cs" />
+    <Compile Include="Table\OSPInfo.cs" />
+    <Compile Include="Table\POTypeChangeArp.cs" />
+    <Compile Include="Table\POTypeChangeInfo.cs" />
+    <Compile Include="Table\VENDOR.cs" />
+    <Compile Include="Table\PO.cs" />
+    <Compile Include="Table\POACCOUNT.cs" />
+    <Compile Include="Table\POCOND.cs" />
+    <Compile Include="Table\POHEADER.cs" />
+    <Compile Include="Table\POINFO.cs" />
+    <Compile Include="Table\POITEM.cs" />
+    <Compile Include="Table\POTEXTHEADER.cs" />
+    <Compile Include="Table\RETURN.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CA.WorkFlow.Common.SAP.snk" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

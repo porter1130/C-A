@@ -1,0 +1,5 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\target\CA.SharePoint.Utilities.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\target\CA.SharePoint.Utilities.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.SharePoint.Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.SharePoint.Utilities\obj\Debug\CA.SharePoint.Utilities.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.SharePoint\CA.SharePoint.Utilities\obj\Debug\CA.SharePoint.Utilities.pdb

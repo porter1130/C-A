@@ -1,0 +1,5 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\obj\Debug\ResolveAssemblyReference.cache
+D:\WorkShop\work\SapTestConsoleApp\bin\CA.WorkFlow.Common.SAP.dll
+D:\WorkShop\work\SapTestConsoleApp\bin\CA.WorkFlow.Common.SAP.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\obj\Debug\CA.WorkFlow.Common.SAP.dll
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SAP\obj\Debug\CA.WorkFlow.Common.SAP.pdb

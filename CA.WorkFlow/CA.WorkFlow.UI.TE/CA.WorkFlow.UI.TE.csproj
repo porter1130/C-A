@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{36658106-291E-4B6E-98C2-A311FBA30AC0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CA.WorkFlow.UI.TE</RootNamespace>
+    <AssemblyName>CA.WorkFlow.UI.TE</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>GAC\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>CA.WorkFlow.UI.TE.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CA.SharePoint.Utilities">
+      <HintPath>..\..\ref\CA.SharePoint.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.Web">
+      <HintPath>..\..\ref\CA.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.WorkFlow.Common.SAP">
+      <HintPath>..\..\..\..\..\..\work\SapTestConsoleApp\bin\CA.WorkFlow.Common.SAP.dll</HintPath>
+    </Reference>
+    <Reference Include="CA.WorkFlow.UI">
+      <HintPath>..\CA.WorkFlow.UI\bin\CA.WorkFlow.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.CamlQuery, Version=1.0.0.0, Culture=neutral, PublicKeyToken=43536cfde91ea799, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\CodeArt.SharePoint.CamlQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeArt.SharePoint.MultiLanSupport">
+      <HintPath>..\..\ref\CodeArt.SharePoint.MultiLanSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2">
+      <HintPath>..\..\ref\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet">
+      <HintPath>..\..\ref\GemBox.Spreadsheet.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\ref\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="iTextAsian">
+      <HintPath>..\..\ref\iTextAsian.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\ref\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref\Microsoft.SharePoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SharePoint.Security, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\12\ISAPI\Microsoft.SharePoint.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="NewICSharpCode.SharpZipLib">
+      <HintPath>..\..\ref\NewICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="QuickFlow.UI.ApplicationPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=ec1e0fe6e1745628, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ref-QuickflowUpgrade branch\QuickFlow.UI.ApplicationPages.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartForm">
+      <HintPath>..\..\ref\SmartForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\ApproveForm.aspx.cs">
+      <DependentUpon>ApproveForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\ApproveForm.aspx.designer.cs">
+      <DependentUpon>ApproveForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit.ascx.cs">
+      <DependentUpon>DataEdit.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit.ascx.designer.cs">
+      <DependentUpon>DataEdit.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit2.ascx.cs">
+      <DependentUpon>DataEdit2.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit2.ascx.designer.cs">
+      <DependentUpon>DataEdit2.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelHotelForm.ascx.cs">
+      <DependentUpon>TravelHotelForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelHotelForm.ascx.designer.cs">
+      <DependentUpon>TravelHotelForm.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelMealForm.ascx.cs">
+      <DependentUpon>TravelMealForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelMealForm.ascx.designer.cs">
+      <DependentUpon>TravelMealForm.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelOtherForm.ascx.cs">
+      <DependentUpon>TravelOtherForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelOtherForm.ascx.designer.cs">
+      <DependentUpon>TravelOtherForm.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelSamplePurchaseForm.ascx.cs">
+      <DependentUpon>TravelSamplePurchaseForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelSamplePurchaseForm.ascx.designer.cs">
+      <DependentUpon>TravelSamplePurchaseForm.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelTransportationForm.ascx.cs">
+      <DependentUpon>TravelTransportationForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelTransportationForm.ascx.designer.cs">
+      <DependentUpon>TravelTransportationForm.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataView.ascx.cs">
+      <DependentUpon>DataView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataView.ascx.designer.cs">
+      <DependentUpon>DataView.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DisplayForm.aspx.cs">
+      <DependentUpon>DisplayForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DisplayForm.aspx.designer.cs">
+      <DependentUpon>DisplayForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\EditForm.aspx.cs">
+      <DependentUpon>EditForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\EditForm.aspx.designer.cs">
+      <DependentUpon>EditForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\NewForm.aspx.cs">
+      <DependentUpon>NewForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\NewForm.aspx.designer.cs">
+      <DependentUpon>NewForm.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\TravelExpenseClaimCommon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GAC\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CA.WorkFlow.UI.TE.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\ApproveForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit2.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\JS\Calendar3.js" />
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\JS\jquery-1.4.1-vsdoc.js" />
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelHotelForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelMealForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelOtherForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelSamplePurchaseForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataEdit\TravelTransportationForm.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DataView.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\DisplayForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\EditForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="_Layouts\CA\WorkFlows\TravelExpenseClaim2\NewForm.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

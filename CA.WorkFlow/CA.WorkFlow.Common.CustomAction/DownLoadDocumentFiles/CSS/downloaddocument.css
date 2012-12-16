@@ -1,0 +1,60 @@
+﻿        .Title
+        {
+            background-color:Gray;
+            }
+        .AlterTr
+        {
+            background-color:#b9def9;
+            }
+        .style2
+        {
+            width: 100px;
+        }
+        .Forbid
+        {
+                background-color:Black;
+                z-index:2;
+                position:absolute;
+                display:none;
+            }
+         #Waite
+         {
+                width:140px;
+                height:130px;
+                z-index:5;
+                position:absolute;
+                display:none;
+                font-size:12px;
+                font-weight:bold;
+             }
+         .StateBorder
+         {
+             border: 1px solid #333333;
+             width:140px;
+             height:20px;
+             }
+         #animateBG
+         {
+             width:100px;
+             background-color:Blue;
+             display:inline;
+             height:20px;
+             }
+
+.cancel{
+	width:50%;
+	padding: 5px;
+	text-align:center;
+	cursor:pointer;
+	background-color: #CCCCCC;
+}/*
+.cancel a {
+	background-color: #CCCCCC;
+	padding: 5px;
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #9b9999;
+}*/
+             

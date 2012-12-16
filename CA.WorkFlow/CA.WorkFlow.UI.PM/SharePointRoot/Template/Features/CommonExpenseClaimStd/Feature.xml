@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature  Id="{4f8767b1-1b4c-4dab-bc42-1d0aad4cfc6f}"
+          Title="Common ExpenseClaimStd"
+		      Description="Create list template for ExpenseClaimStd"
+          Scope="Web"
+          xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ElementManifests>
+    <ElementManifest Location="ListTemplate.xml" />
+    <ElementManifest Location="ListCreator.xml" />
+  </ElementManifests>
+</Feature>

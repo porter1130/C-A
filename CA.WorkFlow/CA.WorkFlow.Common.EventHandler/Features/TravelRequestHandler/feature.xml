@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Feature
+    xmlns="http://schemas.microsoft.com/sharepoint/"
+    Id="{3cfdc2cb-f5b4-4fa5-99bf-ec49878cb925}"
+    Title="Travel Request Event Handler"
+    Description="This feature registers Event Receiver for Travel Request Workflow list."
+    Scope="Web"
+    Creator="Create IT"
+    Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="EventReceivers.xml"/>
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,6 @@
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SendNoticeGRSRMail\bin\Release\CA.WorkFlow.Common.SendNoticeGRSRMail.exe.config
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SendNoticeGRSRMail\bin\Release\CA.WorkFlow.Common.SendNoticeGRSRMail.exe
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SendNoticeGRSRMail\bin\Release\CA.WorkFlow.Common.SendNoticeGRSRMail.pdb
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SendNoticeGRSRMail\obj\x86\Release\ResolveAssemblyReference.cache
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SendNoticeGRSRMail\obj\x86\Release\CA.WorkFlow.Common.SendNoticeGRSRMail.exe
+D:\WorkShop\CATFS\CA\CA_P1\S0 - Source Code\CA.WorkFlow\CA.WorkFlow.Common.SendNoticeGRSRMail\obj\x86\Release\CA.WorkFlow.Common.SendNoticeGRSRMail.pdb

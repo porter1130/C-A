@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Title="DownLoad"
+    Location="ViewToolbar"
+    Id="CADownLoadDocumentFiesAction"
+    RegistrationType="ContentType"
+    RegistrationId ="0x01"
+    ControlAssembly ="CA.WorkFlow.Common.CustomAction, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cefca58d1946b8ca"
+ControlClass="CA.WorkFlow.Common.CustomAction.DownLoadDocumentFiles.CADownloadDocumentAction">
+  </CustomAction>
+</Elements>
